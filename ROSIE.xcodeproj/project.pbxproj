@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		51C61C052F7A534C006B1C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C61BEC2F7A534B006B1C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C61BF32F7A534B006B1C51;
+			remoteInfo = ROSIE;
+		};
+		51C61C0F2F7A534C006B1C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C61BEC2F7A534B006B1C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C61BF32F7A534B006B1C51;
+			remoteInfo = ROSIE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51C61BF42F7A534B006B1C51 /* ROSIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C61C042F7A534C006B1C51 /* ROSIETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSIETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C61C0E2F7A534C006B1C51 /* ROSIEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSIEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		51C61BF62F7A534B006B1C51 /* ROSIE */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ROSIE;
+			sourceTree = "<group>";
+		};
+		51C61C072F7A534C006B1C51 /* ROSIETests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ROSIETests;
+			sourceTree = "<group>";
+		};
+		51C61C112F7A534C006B1C51 /* ROSIEUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ROSIEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C61BF12F7A534B006B1C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C012F7A534C006B1C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C0B2F7A534C006B1C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51C61BEB2F7A534B006B1C51 = {
+			isa = PBXGroup;
+			children = (
+				51C61BF62F7A534B006B1C51 /* ROSIE */,
+				51C61C072F7A534C006B1C51 /* ROSIETests */,
+				51C61C112F7A534C006B1C51 /* ROSIEUITests */,
+				51C61BF52F7A534B006B1C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51C61BF52F7A534B006B1C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51C61BF42F7A534B006B1C51 /* ROSIE.app */,
+				51C61C042F7A534C006B1C51 /* ROSIETests.xctest */,
+				51C61C0E2F7A534C006B1C51 /* ROSIEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51C61BF32F7A534B006B1C51 /* ROSIE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C61C182F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIE" */;
+			buildPhases = (
+				51C61BF02F7A534B006B1C51 /* Sources */,
+				51C61BF12F7A534B006B1C51 /* Frameworks */,
+				51C61BF22F7A534B006B1C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				51C61BF62F7A534B006B1C51 /* ROSIE */,
+			);
+			name = ROSIE;
+			packageProductDependencies = (
+			);
+			productName = ROSIE;
+			productReference = 51C61BF42F7A534B006B1C51 /* ROSIE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51C61C032F7A534C006B1C51 /* ROSIETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C61C1B2F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIETests" */;
+			buildPhases = (
+				51C61C002F7A534C006B1C51 /* Sources */,
+				51C61C012F7A534C006B1C51 /* Frameworks */,
+				51C61C022F7A534C006B1C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C61C062F7A534C006B1C51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				51C61C072F7A534C006B1C51 /* ROSIETests */,
+			);
+			name = ROSIETests;
+			packageProductDependencies = (
+			);
+			productName = ROSIETests;
+			productReference = 51C61C042F7A534C006B1C51 /* ROSIETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51C61C0D2F7A534C006B1C51 /* ROSIEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C61C1E2F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIEUITests" */;
+			buildPhases = (
+				51C61C0A2F7A534C006B1C51 /* Sources */,
+				51C61C0B2F7A534C006B1C51 /* Frameworks */,
+				51C61C0C2F7A534C006B1C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C61C102F7A534C006B1C51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				51C61C112F7A534C006B1C51 /* ROSIEUITests */,
+			);
+			name = ROSIEUITests;
+			packageProductDependencies = (
+			);
+			productName = ROSIEUITests;
+			productReference = 51C61C0E2F7A534C006B1C51 /* ROSIEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51C61BEC2F7A534B006B1C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					51C61BF32F7A534B006B1C51 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					51C61C032F7A534C006B1C51 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 51C61BF32F7A534B006B1C51;
+					};
+					51C61C0D2F7A534C006B1C51 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 51C61BF32F7A534B006B1C51;
+					};
+				};
+			};
+			buildConfigurationList = 51C61BEF2F7A534B006B1C51 /* Build configuration list for PBXProject "ROSIE" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51C61BEB2F7A534B006B1C51;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 51C61BF52F7A534B006B1C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51C61BF32F7A534B006B1C51 /* ROSIE */,
+				51C61C032F7A534C006B1C51 /* ROSIETests */,
+				51C61C0D2F7A534C006B1C51 /* ROSIEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51C61BF22F7A534B006B1C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C022F7A534C006B1C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C0C2F7A534C006B1C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51C61BF02F7A534B006B1C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C002F7A534C006B1C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C61C0A2F7A534C006B1C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51C61C062F7A534C006B1C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C61BF32F7A534B006B1C51 /* ROSIE */;
+			targetProxy = 51C61C052F7A534C006B1C51 /* PBXContainerItemProxy */;
+		};
+		51C61C102F7A534C006B1C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C61BF32F7A534B006B1C51 /* ROSIE */;
+			targetProxy = 51C61C0F2F7A534C006B1C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51C61C162F7A534C006B1C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51C61C172F7A534C006B1C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51C61C192F7A534C006B1C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ROSIE/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX57VP4665;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth will be used to connect to ROSIE.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth will be used to connect to ROSIE.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone will be used to control the launcher.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Microphone will be used to control the launcher.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51C61C1A2F7A534C006B1C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ROSIE/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX57VP4665;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth will be used to connect to ROSIE.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth will be used to connect to ROSIE.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone will be used to control the launcher.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Microphone will be used to control the launcher.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51C61C1C2F7A534C006B1C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSIE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ROSIE";
+			};
+			name = Debug;
+		};
+		51C61C1D2F7A534C006B1C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSIE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ROSIE";
+			};
+			name = Release;
+		};
+		51C61C1F2F7A534C006B1C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ROSIE;
+			};
+			name = Debug;
+		};
+		51C61C202F7A534C006B1C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kenny.ROSIEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ROSIE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C61BEF2F7A534B006B1C51 /* Build configuration list for PBXProject "ROSIE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C61C162F7A534C006B1C51 /* Debug */,
+				51C61C172F7A534C006B1C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C61C182F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C61C192F7A534C006B1C51 /* Debug */,
+				51C61C1A2F7A534C006B1C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C61C1B2F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C61C1C2F7A534C006B1C51 /* Debug */,
+				51C61C1D2F7A534C006B1C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C61C1E2F7A534C006B1C51 /* Build configuration list for PBXNativeTarget "ROSIEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C61C1F2F7A534C006B1C51 /* Debug */,
+				51C61C202F7A534C006B1C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51C61BEC2F7A534B006B1C51 /* Project object */;
+}
